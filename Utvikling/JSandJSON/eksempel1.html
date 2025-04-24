@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="name"></h1>
+    <p id="info"></p>
+
+    <li id="ansatte"></li>
+
+    <ul>
+        <li class="liste"></li>
+    </ul>
+
+    <p id="frukt"></p>
+    <p id="fruktSpess"></p>
+
+
+    <script>
+
+        const name1 = "cecilie"; // Lager en variabel kalt "name1"
+        const info = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur unde odit tempora impedit est minus, perspiciatis ipsum magnam laudantium, saepe aliquam cumque optio. Quibusdam, excepturi molestias vero fugiat inventore maiores."
+
+        document.getElementById("name").innerHTML = name1; // Endrer HTML-dokumentet
+        document.getElementById("info").innerHTML = info;
+
+
+
+        // Bruk av forEach for å vise alle items fra en array i HTML-dokumentet
+
+        const arrayCars = ["Saab", "Volvo", "BMW"];
+        const listElement = document.querySelector(".liste");
+
+        arrayCars.forEach(car => {
+            const listItem = document.createElement("li"); // Lager et nytt liste-element
+            listItem.textContent = car; // Setter tekstinnhold til liste-elementet
+            listElement.appendChild(listItem); // Legger til flere liste-elementer
+        });
+
+
+        // Bruk av "for loop" for å iterere gjennom alle items i en array samtidig som man hente ut én og én ut ifra index
+        let fruits = ["apple", "banana", "cherry", "date", "elderberry"];
+
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+            document.getElementById("frukt").innerHTML = fruits;
+        }
+
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+            document.getElementById("fruktSpess").innerHTML = fruits[3];
+        }
+
+        //JSON
+
+        let text = '{ "employees" : [' +
+            '{ "firstName":"John" , "lastName":"Doe" },' +
+            '{ "firstName":"Anna" , "lastName":"Smith" },' +
+            '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+        const obj = JSON.parse(text)
+
+        console.log(obj.employees[1].firstName);
+        console.log(obj.employees[0].firstName);
+        console.log(obj.employees[2].firstName);
+
+        document.getElementById("ansatte").innerHTML = obj.employees[0].firstName + " " + obj.employees[0].lastName; // Legger til det første fornavnet og etternavnet fra JSON-lista
+
+
+        
+    </script>
+</body>
+
+</html>

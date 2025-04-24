@@ -1,0 +1,64 @@
+{
+    "countries": [
+        {
+            "name": "United States",
+            "capital": "Washington, D.C.",
+            "population": 331449281,
+            "national_dish": "Apple Pie"
+        },
+        {
+            "name": "France",
+            "capital": "Paris",
+            "population": 67564251,
+            "national_dish": "Pot-au-Feu"
+        },
+        {
+            "name": "Japan",
+            "capital": "Tokyo",
+            "population": 125584057,
+            "national_dish": "Curry Rice"
+        },
+        {
+            "name": "India",
+            "capital": "New Delhi",
+            "population": 1417173173,
+            "national_dish": "Khichdi"
+        },
+        {
+            "name": "Brazil",
+            "capital": "Brasília",
+            "population": 214665442,
+            "national_dish": "Feijoada"
+        },
+        {
+            "name": "Italy",
+            "capital": "Rome",
+            "population": 59257566,
+            "national_dish": "Pizza"
+        },
+        {
+            "name": "Mexico",
+            "capital": "Mexico City",
+            "population": 129314399,
+            "national_dish": "Tacos"
+        },
+        {
+            "name": "China",
+            "capital": "Beijing",
+            "population": 1444216107,
+            "national_dish": "Peking Duck"
+        },
+        {
+            "name": "Germany",
+            "capital": "Berlin",
+            "population": 83019213,
+            "national_dish": "Sauerbraten"
+        },
+        {
+            "name": "South Africa",
+            "capital": "Pretoria",
+            "population": 60838448,
+            "national_dish": "Bobotie"
+        }
+    ]
+}

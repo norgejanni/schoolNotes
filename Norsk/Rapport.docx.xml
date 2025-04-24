@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <paragraph index="6" node_type="writer">2IT	Janet Maurice Götze	19.03.2025</paragraph>
+ <paragraph index="12" node_type="writer">Dato: 19.03.2025</paragraph>
+ <paragraph index="13" node_type="writer">Til: Ane Saima Dybdahl</paragraph>
+ <paragraph index="14" node_type="writer">Fra: Janet Maurice Götze</paragraph>
+ <paragraph index="15" node_type="writer">Sak: Utplassering i Bredbåndsfylket</paragraph>
+ <paragraph index="17" node_type="writer">Innledning</paragraph>
+ <paragraph index="18" node_type="writer">Jeg har vært utplassert hos Bredbåndsfylket i uke 8 og 9 som en del av min praksisperiode. Bredbåndsfylket jobber med å levere og vedlikeholde bredbåndsinfrastruktur, og jeg har fått innblikk i flere tekniske aspekter ved nettverksdrift og feilsøking. Jeg hadde ingen spesifikke forventninger før utplasseringen, men jeg gledet meg til å lære mer om nettverkskonfigurasjon og praktisk IT-drift. Jeg fikk jobbe med flere oppgaver som involverte feilsøking, konfigurering og fysisk installasjon av utstyr, noe som var veldig lærerikt.</paragraph>
+ <paragraph index="19" node_type="writer">Hoveddel</paragraph>
+ <paragraph index="20" node_type="writer">Uke 8:
+Jeg startet uken med å møte teamet, og jeg opplevde et veldig hyggelig arbeidsmiljø. Jeg signerte taushetserklæring og deltok på status- og tekniske møter der temaene inkluderte forskjellige nettverksprotokoller, som MPLS, BGP, OSPF og ISIS. Jeg forsto ikke alt, men syntes det var veldig spennende.</paragraph>
+ <paragraph index="21" node_type="writer">Videre fikk jeg være med på praktiske oppgaver som å bytte ut fiberkabler på fylkeshuset og hente gammelt utstyr fra helsehuset. Jeg fikk demonstrert hvordan en OTDR(Optical time-domain reflectometer) fungerer for å måle kvaliteten på fiberkabler, og jeg hjalp til med manuell retting av nettverksadresser med feil subnettmaske. I tillegg fikk jeg observere feilsøking på en FortiWiFi og koble opp en FortiGate 100F brannmur.</paragraph>
+ <paragraph index="22" node_type="writer">Jeg begynte også å labbe på en FortiGate 400E brannmur, samtidig som jeg ventet på å få utdelt en egen laptop.</paragraph>
+ <paragraph index="23" node_type="writer">Uke 9:
+Uken startet med statusmøte og fellesopplæring. Jeg fikk min første oppgave, der jeg skulle sette opp et nettverk med flere VLAN. Etter mye feilsøking fant vi ut at FortiGaten ikke klarte å håndtere tagget trafikk riktig, så vi koblet opp en Juniper EX3400 svitsj og satte opp trunking, en prosess der flere virtuelle nettverk kan overføres over samme nettverkskabel. Etter dette fungerte alt umiddelbart.</paragraph>
+ <paragraph index="24" node_type="writer">Som en ekstra oppgave satte jeg opp en FortiAP 431F aksesspunkt, inkludert VLAN-konfigurasjon, trunking og SSID-oppsett. Deretter fikk jeg installere en Lenovo System X-server via IMM(Integrated Management Module) uten skjerm og sette opp Proxmox som virtualiseringsplattform.</paragraph>
+ <paragraph index="25" node_type="writer">Jeg fikk også bytte en strømforsyning på en brannmur i rådhuset sitt tekniske rom. Siste dagen satt jeg opp en Windows Server VM(virtuell maskin) og optimaliserte minnebruken av den fordi den konstant brukte over 70% av minnet den hadde fått tildelt, ved hjelp av kun Proxmox-forumet. Dette var en liten utfordring gitt av en kollega. Som avslutning på perioden lagde jeg vafler til teamet og fikk en liten tale samt noen firmagaver som takk for tiden hos dem.</paragraph>
+ <paragraph index="26" node_type="writer">Oppsummering</paragraph>
+ <paragraph index="27" node_type="writer">Jeg synes utplasseringen hos Bredbåndsfylket var veldig lærerik. Jeg fikk være med på mange forskjellige arbeidsoppgaver og lærte mye om feilsøking, konfigurering og fysisk installasjon av nettverksutstyr. En av de mest givende oppgavene var å sette opp Fortigate brannmurer og System X-serveren med Proxmox, da jeg fikk praktisk erfaring med både nettverksstruktur og sikkerhetskonfigurasjon.</paragraph>
+ <paragraph index="28" node_type="writer">Jeg opplevde også at arbeidsmiljøet var veldig bra, med hjelpsomme og hyggelige kollegaer. Dette er definitivt et yrke jeg kunne tenke meg å jobbe med i fremtiden.</paragraph>
+</indexing>

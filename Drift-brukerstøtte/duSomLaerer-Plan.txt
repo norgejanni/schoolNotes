@@ -1,0 +1,3 @@
+jeg planlegger å basere timen rundt en powerpoint jeg har laget på forhånd og støtte den med litt praktiske eksempler der jeg viser fram noen av de mest populære linux versjonene og kjører noen simple kommandoer for å vise litt praktisk hvordan linux brukes.
+~20 minutter først i powerpointen, forklare grunnleggende ideer rundt linux(origin, hvorfor bruke det, hvordan navigere rundt(terminal og gui))
+~30 minutter praktiske eksempler på VMer. har tenkt å vise forskjellige måter å installere software på(terminal, software center, etc), vise kommandoer jeg ofte bruker, og ta imot spørsmål fra klassen, slik at det blir litt mer interaktivt istedenfor å bare sitte og lytte til meg prate i en time straight.

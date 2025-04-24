@@ -1,0 +1,33 @@
+[
+    {
+        "navn":"Planet Remina",
+        "favorittsang":"No Gods No kings",
+        "år":"2001",
+        "sjanger":"death metal"
+    },
+    {
+        "navn":"Rick Astley",
+        "favorittsang":"Never gonna give you up",
+        "år":"1874",
+        "sjanger":"Jazzcore"
+    },
+    {
+        "navn":"Howard Carpendale",
+        "favorittsang":"Ti amo",
+        "år":"1983",
+        "sjanger":"schlager"
+    },
+    {
+        "navn":"A-ha",
+        "favorittsang":"Take on me",
+        "år":"1989",
+        "sjanger":"90s pop"
+    },
+    {
+        "navn":"Miley Cyrus",
+        "favorittsang":"Wrecking ball",
+        "år":"2013",
+        "sjanger":"pop"
+    }
+
+]
